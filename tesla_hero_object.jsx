@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import CX from 'classnames'
+import ToolBar from './toolbar'
+// import './app_style.css'
 
 class TeslaHero extends Component{
     constructor(props){
@@ -12,7 +14,6 @@ class TeslaHero extends Component{
             imageArray: ["div1","div2","div3","div4"], 
             animating: false,
         }
-
         this.handleScroll = this.handleScroll.bind(this);
     }
 
@@ -68,7 +69,7 @@ class TeslaHero extends Component{
 
         return(
             <div>
-            
+                <ToolBar />
                 <div className="div1"> </div>
                 <div className="div2"> </div>
                 <div className="div3"> </div>

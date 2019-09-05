@@ -1,9 +1,46 @@
+
+
 div[class^="div"]{
     width: 100vw;
     height: 100vh;
     max-width:100%;
     background-size: cover;
 }
+
+.toolbar-flexer{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 10;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    color: rgb(112, 109, 109);
+}
+
+.models{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.user-auth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h4 {
+    margin: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+h4:hover {
+    color: grey;
+}
+
+
+
 
 .div1 {
     background-color: red;

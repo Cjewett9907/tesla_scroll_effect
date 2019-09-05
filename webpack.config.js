@@ -8,7 +8,13 @@ module.exports = {
     filename: "bundle.js"
   },
   module: {
+    
     rules: [
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        loaders: ['style-loader', 'css-loader'],
+       },
       {
         test: /\.jsx?$/,
         exclude: /(node_modules)/,

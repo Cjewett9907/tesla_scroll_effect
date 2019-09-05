@@ -23073,6 +23073,43 @@ module.exports = __webpack_require__(/*! ./lib/React */ "./node_modules/react/li
 
 /***/ }),
 
+/***/ "./overlay.jsx":
+/*!*********************!*\
+  !*** ./overlay.jsx ***!
+  \*********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/react.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var Overlay = function Overlay() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "overlay-flexer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "MODEL S"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "specs-flexer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "thumbnail",
+    src: "https://img.pngio.com/up-to-speedpng-speed-png-424_236.png",
+    alt: "speed icon"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "thumbnail",
+    src: "https://www.stickpng.com/assets/images/5a059a879cf05203c4b6045a.png",
+    alt: "power icon"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "thumbnail",
+    src: "https://good-design.org/wp-content/uploads/2018/03/Good-Design-Award_of-the-Year_RGB_BLK_Logo.png",
+    alt: "award icon"
+  }))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Overlay);
+
+/***/ }),
+
 /***/ "./tesla_hero_object.jsx":
 /*!*******************************!*\
   !*** ./tesla_hero_object.jsx ***!
@@ -23087,6 +23124,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _toolbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./toolbar */ "./toolbar.jsx");
+/* harmony import */ var _overlay__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./overlay */ "./overlay.jsx");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -23108,6 +23146,8 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 
 
  // import './app_style.css'
+
+
 
 var TeslaHero =
 /*#__PURE__*/
@@ -23195,7 +23235,7 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_toolbar__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "div1"
-      }, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_overlay__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "div2"
       }, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "div3"

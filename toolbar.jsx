@@ -21,7 +21,6 @@ const ToolBar = () => {
                         <h4>SHOP</h4>
                         <h4>SIGN IN</h4>
                         <h4>OPTIONS /// </h4>
-
                     </div>
                 
             </div>

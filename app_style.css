@@ -20,11 +20,13 @@ div[class^="div"]{
 }
 .overlay-flexer{
     position: absolute;
+    top: 20vh;
     display: flex;
     flex-direction: column;
     z-index: 10;
     height: 70vh;
-    width: 100vw; 
+    width: 100vw;
+    
     align-items: center;
     justify-content: space-between;
     color: rgb(112, 109, 109);

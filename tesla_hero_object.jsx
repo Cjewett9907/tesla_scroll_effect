@@ -59,7 +59,6 @@ class TeslaHero extends Component{
                         this.setState({ imageIdx: imageIdx})
                     }    
                 }
-                
 
                 // scrollsBy height of window in the direction of the scroll
                 window.scrollBy({left: 0, top: (window.innerHeight * -delta), behavior: 'smooth'});

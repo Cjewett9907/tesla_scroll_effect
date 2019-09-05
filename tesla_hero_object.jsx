@@ -18,8 +18,6 @@ class TeslaHero extends Component{
         this.handleScroll = this.handleScroll.bind(this);
     }
 
-
-
     componentDidMount() {
         document.addEventListener('mousewheel', this.handleScroll ); 
     }

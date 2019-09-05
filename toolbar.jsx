@@ -14,7 +14,6 @@ const ToolBar = () => {
                         <h4>MODEL Y</h4>
                         <h4>ROADSTER</h4>
                         <h4>ENERGY</h4>
-                    
                     </div>
 
                     <div className='user-auth'>

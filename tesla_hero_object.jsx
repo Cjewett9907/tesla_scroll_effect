@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-
+import CX from 'classnames'
 
 class TeslaHero extends Component{
     constructor(props){
@@ -37,7 +37,10 @@ class TeslaHero extends Component{
                 // simulated animation lag to slow the scrolling to 1 image at a time
                 setTimeout(() => {
                     this.setState({animating: false});
-                }, 750)
+                }, 800)
+
+                // determines if the mouse was scrolled up or down resulting in 1 or -1
+                var delta = Math.max(-1, Math.min(1, (e.wheelDelta)));
             
             // if scrolling down
                 if(delta === -1){
@@ -54,8 +57,7 @@ class TeslaHero extends Component{
                         this.setState({ imageIdx: imageIdx})
                     }    
                 }
-                // determines if the mouse was scrolled up or down resulting in 1 or -1
-                var delta = Math.max(-1, Math.min(1, (e.wheelDelta)));
+                
 
                 // scrollsBy height of window in the direction of the scroll
                 window.scrollBy({left: 0, top: (window.innerHeight * -delta), behavior: 'smooth'});
@@ -63,10 +65,10 @@ class TeslaHero extends Component{
     }
 
     render(){
-        
+
         return(
             <div>
-               
+            
                 <div className="div1"> </div>
                 <div className="div2"> </div>
                 <div className="div3"> </div>
